@@ -7,7 +7,7 @@ function filterOutOdds() {
 
 //ES2015
 //using rest and an arrow function
-const filterOutOdds = () => (...nums).filter(num => num % 2 === 0)
+const filterOutOdds = (...nums) => (nums.filter(num => num % 2 === 0))
 
 const findMin = (...nums) => Math.min(...nums); 
 
